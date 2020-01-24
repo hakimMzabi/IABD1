@@ -33,7 +33,7 @@ TL;DR writes how to use the function if it panic says it! make an example in the
 Warmups functions:
  
 - Write a block `impl Pixel` for next questions
-- Write a nice constructor `fn new(red: u8, green: u8, blue: u8 -> Pixel`
+- Write a nice constructor `fn new(red: u8, green: u8, blue: u8) -> Pixel`
 - Derive `Clone` and `Copy` because a Pixel is a tiny type who fits in a register.
 - Make functions `red`, `blue`, `green` to access each color easily
 - Make a `fn display(self) -> String` to render a pixel in terminal
