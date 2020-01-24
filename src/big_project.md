@@ -34,7 +34,7 @@ Warmups functions:
  
 - Write a block `impl Pixel` for next questions
 - Write a nice constructor `fn new(red: u8, green: u8, blue: u8 -> Self`
-- Derive `Clone` and `Copy` because a Pixel is a tiny type who fits in a register.
+- (Optional) Derive `Clone` and `Copy` because a Pixel is a tiny type who fits in a register.
 - Make a `fn display(self) -> String` to render a pixel in terminal
 - Carve a function `fn invert(&mut self)` that inverts a pixel. Advise think [bitwise](https://doc.rust-lang.org/std/ops/trait.Not.html)*!* ;)
  
