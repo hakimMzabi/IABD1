@@ -152,4 +152,3 @@ Somewhat harder:
  
 - Exposes functions of your `ppm` crate to Python
 - Use [PyO3](https://github.com/PyO3/pyo3) and [Maturin](https://github.com/PyO3/maturin) read the README of the projects!
- 
